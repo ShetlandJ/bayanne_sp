@@ -1,0 +1,19 @@
+{
+  "name": "bayanne-scraper",
+  "version": "1.0.0",
+  "description": "A Puppeteer-based scraper for Bayanne genealogy records to find men with middle names",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "dev": "node --inspect scraper.js",
+    "integrated": "node integrated-scraper.js",
+    "multi-page": "node multi-page-scraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.5.0",
+    "csv-writer": "^1.6.0"
+  },
+  "keywords": ["genealogy", "scraper", "puppeteer", "shetland"],
+  "author": "",
+  "license": "MIT"
+}
